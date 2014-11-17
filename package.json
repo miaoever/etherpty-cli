@@ -1,0 +1,20 @@
+{
+  "name": "etherpty-cli",
+  "version": "0.0.1",
+  "description": "etherpty client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha verify -R spec"
+  },
+  "author": "miaoever",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "websocket": "^1.0.10"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "supertest": "^0.15.0"
+  }
+}
