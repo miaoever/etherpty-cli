@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha verify -R spec"
   },
+  "bin": {
+    "etherpty-cli": "./bin/etherpty-cli.js"
+  },
   "author": "miaoever",
   "license": "MIT",
   "dependencies": {
