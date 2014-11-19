@@ -1,5 +1,7 @@
 var etherpty = require("./lib/client");
 
+exports.etherpty = ehterpty;
+
 var argv = require('minimist')(process.argv.slice(2));
 var action = argv._[0] || "";
 
