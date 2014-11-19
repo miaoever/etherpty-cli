@@ -1,6 +1,6 @@
 {
   "name": "etherpty-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "etherpty client",
   "main": "index.js",
   "scripts": {
