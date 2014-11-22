@@ -11,8 +11,11 @@ if (!(action === "share") && !(action === "join")) {
   process.exit();
 }
 
+var port = config.server.port;
+port = port === "80"? "" : port;
+
 var url = require("url").parse(argv._[1] 
-                               || config.server.protocol + "://" + config.server.host + ":" + config.server.port );
+                               || config.server.protocol + "://" + config.server.host + ":" + port );
 var host = url.host;
 
 if (action === "share") {

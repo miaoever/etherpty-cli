@@ -1,12 +1,7 @@
 {
   "server": {
     "protocol": "ws",
-    "host":"miaoo.in",
-    "port":"8081"
-  },
-  "web": {
-    "protocol":"http",
-    "host":"miaoo.in",
+    "host":"localhost",
     "port":"8080"
   }
 }
