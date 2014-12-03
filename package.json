@@ -7,7 +7,7 @@
     "test": "mocha verify -R spec"
   },
   "bin": {
-    "etherpty-cli": "./bin/etherpty-cli.js"
+    "etherpty": "./bin/etherpty-cli.js"
   },
   "author": "miaoever",
   "license": "MIT",
