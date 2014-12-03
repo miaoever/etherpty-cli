@@ -12,14 +12,15 @@ if (!(action === "share") && !(action === "join")) {
 }
 
 var port = config.server.port;
-port = port === "80"? "" : port;
+port = port === "80"? "" :  ":" + port;
 
 var url = require("url").parse(argv._[1] 
-                               || config.server.protocol + "://" + config.server.host + ":" + port );
+                               || config.server.protocol + "://" + config.server.host + port );
 var host = url.host;
 
 if (action === "share") {
-  etherpty.share(host);
+  etherpty.share(host, argv.editable || argv.e || false);
+  
 } else {
   var token =  url.path.replace(/\//g, "");
   if (!token) {

@@ -1,7 +1,7 @@
 {
   "server": {
     "protocol": "ws",
-    "host":"localhost",
+    "host":"etherpty.io",
     "port":"8080"
   }
 }
