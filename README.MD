@@ -1,12 +1,10 @@
 #Etherpty
-a simple, fast way to broadcast your pty. 
+A simple, fast way to broadcast your pty. 
 
 ---
 ##Installation
 ~~~
-
 npm install etherpty-cli -g
-
 ~~~
 ##Usage
 To broadcast(share) your pty,
@@ -31,6 +29,9 @@ You can config your own etherpty server (instead of etherpty.io) in `config/conf
 ~~~
 $etherpty share http://yourserverip:port
 ~~~
+
+##Contributors
+Thanks [Hayeah](http://github.com/hayeah) for the idea and the protocol design.
 
 ##License
 MIT
