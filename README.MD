@@ -20,7 +20,7 @@ Now, you can spread the unique url to anyone you want to share. The listeners ju
 ####Editable mode
 In some situation, you may allow the listener to control your pty(i.e. your pty is editable), just share your pty in the editable way
 ~~~
-$etherpty share --editabe
+$etherpty share --editable
 ~~~
 Notice: your shared pty is uneditable to the listeners in default.
 
