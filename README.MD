@@ -30,6 +30,8 @@ You can config your own etherpty server (instead of etherpty.io) in `config/conf
 $etherpty share http://yourserverip:port
 ~~~
 
+See [etherpty-server](https://github.com/miaoever/etherpty-server) to deploy your own service.
+
 ##Contributors
 Thanks [Hayeah](http://github.com/hayeah) for the idea and the protocol design.
 
